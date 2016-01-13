@@ -1,0 +1,30 @@
+{
+  "name": "diff",
+  "version": "1.0.0",
+  "description": "string diff",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mochawesome": "^1.2.1"
+  },
+  "scripts": {
+    "test": "mocha test/index.test.js --reporter mochawesome | see mochawesome-reports/mochawesome.html"
+  },
+  "keywords": [
+    "diff"
+  ],
+  "author": "mantou",
+  "license": "ISC",
+  "directories": {
+    "diff": "test diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantou132/diff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mantou132/diff/issues"
+  },
+  "homepage": "https://github.com/mantou132/diff#readme"
+}
