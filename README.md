@@ -1,5 +1,5 @@
-![](https://travis-ci.org/mantou132/diff.svg?branch=master)
-
+[![Build Status](https://travis-ci.org/mantou132/diff.svg?branch=master)](https://travis-ci.org/mantou132/diff)
+[![codecov](https://codecov.io/gh/mantou132/diff/branch/master/graph/badge.svg)](https://codecov.io/gh/mantou132/diff)
 
 ## 简单的字符串diff算法
 `isInclude(t1, t2)`使用嵌套循环得到`t1`和`t2`中最长的子串（忽略了其中的空行）。
