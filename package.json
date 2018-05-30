@@ -10,7 +10,8 @@
     "mochawesome": "^1.2.1"
   },
   "scripts": {
-    "test": "mocha test/index.test.js --reporter mochawesome && open mochawesome-reports/mochawesome.html"
+    "test": "mocha test/index.test.js --reporter mochawesome",
+    "view.test": "npm run test && open mochawesome-reports/mochawesome.html"
   },
   "keywords": [
     "diff"
