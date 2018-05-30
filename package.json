@@ -6,10 +6,11 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",
+    "mocha": "^5.2.0",
     "mochawesome": "^1.2.1"
   },
   "scripts": {
-    "test": "mocha test/index.test.js --reporter mochawesome | see mochawesome-reports/mochawesome.html"
+    "test": "mocha test/index.test.js --reporter mochawesome && open mochawesome-reports/mochawesome.html"
   },
   "keywords": [
     "diff"
